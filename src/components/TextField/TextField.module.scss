@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .textField {
+    min-height: 36px;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid transparent;
+  }
+
+  .textField:focus {
+    border-color: $secondary_color;
+    outline: 0;
+  }
+
+  .textField::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .textField::-webkit-input-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  .textField::-moz-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  .textField:-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  .textField::-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  .textField::placeholder {
+    color: black;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+}
